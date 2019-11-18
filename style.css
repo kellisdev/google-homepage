@@ -10,3 +10,31 @@ body {
     font-size: 16px;
     line-height: 1.7;
 }
+
+header {
+    height: 40px;
+}
+
+.nav-left {
+    float: left;
+    margin: 10px;
+}
+
+.nav-left li {
+    display: inline;
+    margin-left: 16px;
+}
+
+.nav-right {
+    float: right;
+    margin: 10px;
+}
+
+.nav-right li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.nav-left li a, .nav-right li a {
+    text-decoration: none;
+}
